@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: darkslategray;
+    padding: 10px 0;
+}
+header nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .container .left h1{
+    color: white;
+    font-family: sans-serif;    
+}
+header nav .container .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+header nav .container .right a{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+header nav .container .right a:nth-child(1){
+    color: orangered;
+}
+header nav .container .right button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 24px;
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.page1{
+    width: 100%;
+    padding: 50px 0;
+}
+.page1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.page1 .container .left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.page1 .container .left img{
+    width: 80%;
+    border-radius: 24px;
+}
+.page1 .container .right{
+    width: 50%;
+}
+.page1 .container .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 40px;
+}
+.page1 .container .right h1{
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.page1 .container .right h3{
+    font-family: sans-serif;
+    color: orangered;
+}
+.page1 .container .right p{
+    color: grey;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.page1 .container .right .card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page1 .container .right .card span{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.page1 .container .right .card span svg{
+    fill: orangered;
+}
+.page1 .container .right .card span h2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.page1 .container .right .card span h2 a{
+    color: darkslategrey;
+}
+.page1 .container .right  button{
+    width: 50%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 10px;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+}
+.page1 .container .right  button svg{
+    fill: white;
+}
+.page2{
+    padding: 50px 0;
+    background-color: orangered;
+}
+.page2 .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page2 .container h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.page2 .container .box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.page2 .container .box .card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 15px rgb(72, 72, 72);
+}
+.page2 .container .box .card h1{
+    font-size: 36px;
+    color: black;
+    font-family: sans-serif;
+}
+.page2 .container .box .card h3{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: grey;
+}
+.page2 .container .box .card p{
+    font-size: 18px;
+    width: 90%;
+    line-height: 30px;
+}
+.page3{
+    width: 100%;
+    padding: 50px 0;
+}
+.page3 .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page3 .container h1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.page3 .container .box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.page3 .container .box .card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+}
+.page3 .container .box .card .left{
+    width: 30%;
+}
+.page3 .container .box .card .left img{
+    width: 100%;
+    border-radius: 8px;
+}
+.page3 .container .box .card .right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page3 .container .box .card .right h2{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.page3 .container .box .card .right .info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.page3 .container .box .card .right .info span{
+    padding: 5px 20px;
+    background-color: darkslategrey;
+    border-radius: 24px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.page3 .container .box .card .right .info h3{
+    font-family: sans-serif;
+}
+.page3 .container .box .card .right p{
+font-size: 18px;
+color: grey;
+font-family: sans-serif;
+line-height: 30px;
+}
